@@ -15,7 +15,7 @@ set $mod Mod4
 # set $mod Mod1
 
 exec --no-startup-id picom
-exec --no-startup-id feh --bg-scale /home/izaac/Downloads/1440x900-px-Ubuntu-1233281-wallhere.com.jpg
+exec --no-startup-id feh --bg-scale /home/izaac/dotfiles/1920x1200-px-artwork-carnivore-cat-cats-fractal-1812859-wallhere.com.jpg
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
@@ -146,7 +146,6 @@ bindsym $mod+6 workspace number $ws6
 bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -232,3 +231,4 @@ client.urgent            $peach    $base  $peach   $overlay0  $peach
 client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
 
+bindsym $mod+0 exec betterlockscreen -l dim

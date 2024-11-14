@@ -17,7 +17,9 @@ fc-list | grep "MesloLGS"
 -> pavucontrol 
 -> flameshot 
 -> simplescreenrecord
-
+-> zsh 
+-> gtop
+-> https://github.com/betterlockscreen/betterlockscreen
 
 
 
